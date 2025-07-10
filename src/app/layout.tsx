@@ -9,7 +9,10 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "FineBank",
+  title: {
+    default: "FineBank",
+    template: "FineBank | %s",
+  },
   description: "Ideal and Built by Nexon - Joseph Lamidi",
 };
 
